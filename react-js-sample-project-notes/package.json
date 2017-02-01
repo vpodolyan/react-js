@@ -4,7 +4,7 @@
   "description": "ReactJS tutorial",
   "main": "index.html",
   "scripts": {
-    "start": "node server.js"
+    "start": "node ./node_modules/webpack/bin/webpack.js && node server.js"
   },
   "autor": "John",
   "devDependencies": {
